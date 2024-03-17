@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amalia Madalina</title>
+    <!--in functie de stilul culori, layout etc. dorit alegem href="css/style.css sau href="css/varianta2style.css//-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Amalia Mădălina Mocanu</h1>
+
+      <img width="100" src="images/amaliamadalina.jpeg" alt="selfie picture" />
+
+      <p id="job-title">Student @ FastTrackIT</p>
+
+      <ul id="top-menu-bar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#" class="active">Projects</a></li>
+        <li>
+          <a href="#">Languages</a>
+        </li>
+      </ul>
+    </header>
+    <!--in css pentru formatarea unei clase folosim .favorite //-->
+
+    <section id="content">
+      <div id="side-menu">
+        <section>
+          <form action="secretara.html">
+            <h2>Contact</h2>
+            <div>
+              <label for="userEmail">Email</label>
+              <input
+                type="text"
+                name="email"
+                id="userEmail"
+                placeholder="youremail@.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="userName">Your name</label>
+              <input type="text" name="name" id="userName" required />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+        <section>
+          <p>
+            Start server // CTRL + shift + P // Browser sync mode in browser -
+            Enter / slash si enter
+          </p>
+        </section>
+      </div>
+
+      <div id="main">
+        <h2>Skills</h2>
+        <ul>
+          <li class="favorite">HTML</li>
+
+          <li>CSS</li>
+          <li class="favorite">JS</li>
+        </ul>
+
+        <h2>Known languages</h2>
+        <table border="1">
+          <tr>
+            <!--cap de tabel//-->
+            <th>Language</th>
+            <th>Level</th>
+          </tr>
+          <tr>
+            <td class="favorite">Romanian</td>
+            <td>Native</td>
+          </tr>
+
+          <tr>
+            <td>English</td>
+            <td>Advanced</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      Open my
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      account.
+    </footer>
+
+    <!--in css pentru formatarea unui id scriem #job-title//-->
+
+    <!--sectiune pentru celula//-->
+
+    <script>
+      console.info(2 + 3);
+      console.warn("Nicolae Matei");
+
+      var employed = true;
+      var age = 18;
+      console.log("Angajat:", employed);
+      employed = false;
+      console.log("Angajat:", employed);
+      employed = "da";
+      console.log("Angajat:", employed);
+
+      var skills = ["html", "css"];
+      console.debug("tipul variabilei skills:", typeof skills);
+
+      var job = document.getElementById("job-title");
+      console.warn("job", job);
+      console.info(typeof job);
+    </script>
+  </body>
+</html>
