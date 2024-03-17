@@ -1,2 +1,5 @@
 # amaliamadalinam.github.io
-My personal CV :)
+
+## Live
+
+[amaliamadalinam.github.io](https://amaliamadalinam.github.io/)
