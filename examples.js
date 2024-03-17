@@ -18,4 +18,12 @@ function variablesExamples() {
   console.info(typeof job);
 }
 
+function updateTitle(title) {
+  var job = document.getElementById("job-title");
+  console.warn("job", job, title);
+  console.info(typeof job);
+  job.innerHTML = title;
+}
+
 variablesExamples();
+updateTitle("Web Developer@ TOP");
